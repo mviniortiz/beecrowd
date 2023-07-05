@@ -1,6 +1,8 @@
+#Exercício sobre a área do círculo.
+
+
 raio = float(input())
 n = 3.14159
-area = n * raio*raio
-area = n * raio * 2
+area = n*raio*raio
 
-print('A= ', area)
+print('A=%.4f' %area)
